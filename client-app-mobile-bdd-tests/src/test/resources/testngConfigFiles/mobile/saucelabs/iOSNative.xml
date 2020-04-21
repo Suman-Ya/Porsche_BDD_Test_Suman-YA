@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DIA Test Suite" verbose="2">
+	<listeners>
+		<listener class-name="com.sogeti.dia.common.listeners.TestListeners"></listener>
+		<listener class-name="com.sogeti.dia.common.listeners.SuiteListeners"></listener>
+	</listeners>
+			
+	<parameter name="interfaceType" value="Mobile"/> <!-- Desktop/Mobile -->
+	<parameter name="environment" value="SauceLabs"/> <!-- Local, SauceLabs -->
+	<parameter name="appType" value="Native"/> <!-- Native, Hybrid, Web -->
+	<parameter name="language" value="English"/> <!-- English, Spanish -->			
+	
+	<test name="DIA Regression Test">	
+		<parameter name="name" value="Demo iOS Run"/>
+		<parameter name="appiumVersion" value="1.13.0"/>
+		<parameter name="deviceOrientation" value="portrait"/>
+		<parameter name="deviceName" value="iPhone 6s Simulator"/>
+		<parameter name="platformName" value="iOS"/>
+		<parameter name="platformVersion" value="10.0"/>	
+		<parameter name="automationName" value="XCUITest"/>	
+		<parameter name="iOSAPP" value="sauce-storage:EmployeeManagement.app.zip"/>
+		
+		<classes>
+			<class name="com.client.app.testrunner.RunCucumberFeatures_1"/>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="plugin3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.allure/allure-2.0.1/plugins/behaviors-plugin/plugin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

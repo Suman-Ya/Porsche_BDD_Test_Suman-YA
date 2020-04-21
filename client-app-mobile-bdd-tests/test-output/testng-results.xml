@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[HOMEPAGE is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\syadav26\Desktop\Appium\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_20_04_2020_11_55_54.png'> <img src='C:\Users\syadav26\Desktop\Appium\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_20_04_2020_11_55_54.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on HOMEPAGE on Home screen.]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\syadav26\Desktop\Appium\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_20_04_2020_11_55_56.png'> <img src='C:\Users\syadav26\Desktop\Appium\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_20_04_2020_11_55_56.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[DETAILSPAGE is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\syadav26\Desktop\Appium\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_20_04_2020_11_55_57.png'> <img src='C:\Users\syadav26\Desktop\Appium\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_20_04_2020_11_55_57.png' height='100' width='100'/> </a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Mobile Test Suite" duration-ms="189635" started-at="2020-04-20T18:25:31Z" finished-at="2020-04-20T18:28:41Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="RunCucumberFeatures_2.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.client.app.testrunner.RunCucumberFeatures_2@5dafbe45]" name="feature" class="com.client.app.testrunner.RunCucumberFeatures_2"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Mobile Catalogue Test" duration-ms="189635" started-at="2020-04-20T18:25:31Z" finished-at="2020-04-20T18:28:41Z">
+      <class name="com.client.app.testrunner.RunCucumberFeatures_2">
+        <test-method status="PASS" signature="suiteSetup(org.testng.ITestContext)[pri:0, instance:com.client.app.testrunner.RunCucumberFeatures_2@5dafbe45]" name="suiteSetup" is-config="true" duration-ms="73" started-at="2020-04-20T18:25:31Z" finished-at="2020-04-20T18:25:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@fa11fda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetup -->
+        <test-method status="PASS" signature="testSetUp(org.testng.ITestContext)[pri:0, instance:com.client.app.testrunner.RunCucumberFeatures_2@5dafbe45]" name="testSetUp" is-config="true" duration-ms="7511" started-at="2020-04-20T18:25:31Z" finished-at="2020-04-20T18:25:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@fa11fda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="classSetUp()[pri:0, instance:com.client.app.testrunner.RunCucumberFeatures_2@5dafbe45]" name="classSetUp" is-config="true" duration-ms="493" started-at="2020-04-20T18:25:38Z" finished-at="2020-04-20T18:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetUp -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.client.app.testrunner.RunCucumberFeatures_2@5dafbe45]" name="feature" duration-ms="19024" started-at="2020-04-20T18:25:39Z" description="Run Feature" data-provider="features" finished-at="2020-04-20T18:25:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify Mobile Scenarios]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[HOMEPAGE is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\syadav26\Desktop\Appium\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_20_04_2020_11_55_54.png'> <img src='C:\Users\syadav26\Desktop\Appium\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_20_04_2020_11_55_54.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on HOMEPAGE on Home screen.]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\syadav26\Desktop\Appium\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_20_04_2020_11_55_56.png'> <img src='C:\Users\syadav26\Desktop\Appium\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_20_04_2020_11_55_56.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[DETAILSPAGE is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\syadav26\Desktop\Appium\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_20_04_2020_11_55_57.png'> <img src='C:\Users\syadav26\Desktop\Appium\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_20_04_2020_11_55_57.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="scenarioTearDown()[pri:0, instance:com.client.app.testrunner.RunCucumberFeatures_2@5dafbe45]" name="scenarioTearDown" is-config="true" duration-ms="162423" started-at="2020-04-20T18:25:58Z" finished-at="2020-04-20T18:28:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenarioTearDown -->
+        <test-method status="PASS" signature="classTearDown()[pri:0, instance:com.client.app.testrunner.RunCucumberFeatures_2@5dafbe45]" name="classTearDown" is-config="true" duration-ms="6" started-at="2020-04-20T18:28:41Z" finished-at="2020-04-20T18:28:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:com.client.app.testrunner.RunCucumberFeatures_2@5dafbe45]" name="suiteTearDown" is-config="true" duration-ms="71" started-at="2020-04-20T18:28:41Z" finished-at="2020-04-20T18:28:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- com.client.app.testrunner.RunCucumberFeatures_2 -->
+    </test> <!-- Mobile Catalogue Test -->
+  </suite> <!-- Mobile Test Suite -->
+</testng-results>

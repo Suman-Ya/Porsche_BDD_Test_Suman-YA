@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="surefire">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/surefire/surefirebooter7098424564206974756.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/surefire/surefirebooter7694971308465886184.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

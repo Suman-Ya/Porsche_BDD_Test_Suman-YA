@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DIA Test Suite" verbose="2">
+	<listeners>
+		<listener class-name="com.sogeti.dia.common.listeners.TestListeners"></listener>
+		<listener class-name="com.sogeti.dia.common.listeners.SuiteListeners"></listener>
+	</listeners>
+			
+	<parameter name="interfaceType" value="Mobile"/> <!-- Desktop/Mobile -->	
+	<parameter name="environment" value="Kobiton"/> <!-- Local, SauceLabs -->
+	<parameter name="appType" value="Web"/> <!-- Native, Hybrid, Web -->
+	<parameter name="language" value="English"/> <!-- English, Spanish -->
+	
+	<test name="DIA Regression Test">		
+		<parameter name="sessionName" value="iOS Web App"/>
+		<parameter name="sessionDesc" value="iOS Web App Testing"/>
+		<parameter name="deviceName" value="iPhone 7 Plus"/>
+		<parameter name="platformName" value="iOS"/>
+		<parameter name="platformVersion" value="11.4"/>			
+		<parameter name="browserName" value="Safari"/>
+		<parameter name="deviceOrientation" value="portrait"/>
+		
+		<classes>
+			<class name="com.client.app.testrunner.RunCucumberFeatures_2"/>
+		</classes>
+	</test>
+</suite>

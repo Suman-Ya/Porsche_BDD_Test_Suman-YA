@@ -1,0 +1,44 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DIA Test Suite" verbose="2" parallel="tests" thread-count="2">
+	<listeners>
+		<listener class-name="com.sogeti.dia.common.listeners.TestListeners"></listener>
+		<listener class-name="com.sogeti.dia.common.listeners.SuiteListeners"></listener>
+	</listeners>
+	
+	<parameter name="interfaceType" value="Mobile"/> Desktop/Mobile			
+	<parameter name="environment" value="Local"/> Local, SauceLabs
+	<parameter name="appType" value="Native"/> Native, Hybrid, Web		
+	<parameter name="language" value="English"/> English, Spanish	
+	<parameter name="launchExistingApp" value="No"/> Native, Hybrid, Web		
+		
+	<test name="DIA Regression Test-1">	
+		<parameter name="deviceName" value="Samsung"/>
+		<parameter name="platformName" value="Android"/> Android, iOS			
+		<parameter name="platformVersion" value="6.0"/>
+		<parameter name="ipaddress" value="127.0.0.0"/>	
+		<parameter name="udid" value="4100d138f278a2asf"/>	
+		<parameter name="androidAPK" value="EmployeeManagement.apk"/>
+		<parameter name="appPackage" value="com.capgemini.employeeinfo"/>
+		<parameter name="appActivity" value="com.capgemini.employeeinfo.LoginActivity"/>			
+		
+		<classes>
+			<class name="com.client.app.testrunner.RunCucumberFeatures_1"/>
+		</classes>
+	</test>
+	
+	<test name="DIA Regression Test-2">	
+		<parameter name="deviceName" value="Galaxy Nexus API 24"/>
+		<parameter name="platformName" value="Android"/> Android, iOS			
+		<parameter name="platformVersion" value="7.0"/>
+		<parameter name="ipaddress" value="127.0.0.0"/>	
+		<parameter name="udid" value="emulator-5554"/>	
+		<parameter name="androidAPK" value="app-release.apk"/>
+		<parameter name="appPackage" value="id.ihwan.jetpackpro.debug"/>
+		<parameter name="appActivity" value="id.ihwan.jetpackpro.home.HomeActivity"/>		
+		
+		<classes>
+			<class name="com.client.app.testrunner.RunCucumberFeatures_2"/>
+		</classes>
+	</test>
+</suite> -->

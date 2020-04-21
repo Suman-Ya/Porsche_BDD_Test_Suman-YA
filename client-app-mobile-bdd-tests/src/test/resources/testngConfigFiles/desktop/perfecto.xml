@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DIA Automation Test Suite" verbose="2" parallel="tests" thread-count="2">
+	<listeners>
+		<listener class-name="com.sogeti.dia.common.listeners.TestListeners"></listener>
+		<listener class-name="com.sogeti.dia.common.listeners.SuiteListeners"></listener>
+	</listeners>
+	
+	<parameter name="interfaceType" value="Desktop"/> <!-- Desktop/Mobile -->
+	<parameter name="environment" value="Perfecto"/> <!-- Local, SauceLabs -->				
+	<parameter name="appType" value="Web"/> <!-- Native, Hybrid, Web -->
+	<parameter name="language" value="English"/> <!-- English, Spanish -->				
+		
+	<test name="Perfecto Chrome Test">														
+		<parameter name="platformName" value="Windows"/>
+		<parameter name="platformVersion" value="10"/>
+		<parameter name="browserName" value="Chrome"/>		
+		<parameter name="browserVersion" value="latest"/>
+					
+		<classes>
+			<class name="com.client.app.testrunner.RunCucumberFeatures_2"/>
+		</classes>
+	</test>
+	
+	<test name="Perfecto Firefox Test">														
+		<parameter name="platformName" value="Windows"/>
+		<parameter name="platformVersion" value="10"/>
+		<parameter name="browserName" value="Firefox"/>		
+		<parameter name="browserVersion" value="latest"/>
+					
+		<classes>
+			<class name="com.client.app.testrunner.RunCucumberFeatures_2"/>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Mobile Test Suite]">
+  <parameter name="interfaceType" value="Mobile"/>
+  <parameter name="environment" value="Local"/>
+  <parameter name="launchExistingApp" value="No"/>
+  <parameter name="appType" value="Native"/>
+  <parameter name="language" value="English"/>
+  <listeners>
+    <listener class-name="com.sogeti.dia.common.listeners.TestListeners"/>
+    <listener class-name="com.sogeti.dia.common.listeners.SuiteListeners"/>
+  </listeners>
+  <test thread-count="5" verbose="2" name="Mobile Catalogue Test(failed)">
+    <parameter name="appPackage" value="id.ihwan.jetpackpro"/>
+    <parameter name="appActivity" value="id.ihwan.jetpackpro.home.HomeActivity"/>
+    <parameter name="ipaddress" value="127.0.0.0"/>
+    <parameter name="platformVersion" value="7.0"/>
+    <parameter name="androidAPK" value="app-release.apk"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="udid" value="emulator-5554"/>
+    <parameter name="deviceName" value="Galaxy Nexus API 24"/>
+    <classes>
+      <class name="com.client.app.testrunner.RunCucumberFeatures_2">
+        <methods>
+          <include name="suiteTearDown"/>
+          <include name="suiteSetup"/>
+          <include name="classTearDown"/>
+          <include name="classSetUp"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="testSetUp"/>
+          <include name="scenarioTearDown"/>
+        </methods>
+      </class> <!-- com.client.app.testrunner.RunCucumberFeatures_2 -->
+    </classes>
+  </test> <!-- Mobile Catalogue Test(failed) -->
+</suite> <!-- Failed suite [Mobile Test Suite] -->
