@@ -10,54 +10,6 @@ public class Config {
 	public static final String GRID_HUB_PORT = "4443";
 	public static final String GRID_URL = "http://" + GRID_HUB_IP + ":" + GRID_HUB_PORT + "/wd/hub";
 	
-	//Browser Stack
-	public static final String BROWSER_STACK_USER_NAME = ""; 
-	public static final String BROWSER_STACK_ACCESS_KEY = ""; 
-	public static final String BROWSER_STACK_URL = "https://" + BROWSER_STACK_USER_NAME + ":" + BROWSER_STACK_ACCESS_KEY + "@hub-cloud.browserstack.com/wd/hub";
-	
-	//SauceLabs details
-	public static final String SAUCELABS_USER_NAME = "";
-	public static final String SAUCELABS_ACCESS_KEY = "";
-	public static final String SAUCELABS_APPIUM_URL = "http://" + SAUCELABS_USER_NAME + ":" + SAUCELABS_ACCESS_KEY + "@ondemand.saucelabs.com:80/wd/hub";	
-	public static final String SAUCELABS_SELENIUM_URL = "http://" + SAUCELABS_USER_NAME + ":" + SAUCELABS_ACCESS_KEY + "@ondemand.saucelabs.com/wd/hub";	
-		
-	//TestObject details - US data center
-	public static final String TEST_OBJECT_URL = "http://us1.appium.testobject.com/wd/hub";	
-	
-	//Perfecto details
-	public static final String PERFECTO_USER_NAME = ""; 
-	public static final String PERFECTO_SECURITY_TOKEN = ""; 
-	public static final String PERFECTO_HOST = "partners.perfectomobile.com";
-	public static final String PERFECTO_URL = "https://" + PERFECTO_HOST + "/nexperience/perfectomobile/wd/hub";		
-
-	//pCloudy
-	public static final String PCLOUDY_USER_NAME = "";
-	public static final String PCLOUDY_ACCESS_KEY = "";
-	public static final String PCLOUDY_URL = "https://device.pcloudy.com/appiumcloud/wd/hub";	
-	
-	//Kobiton
-	public static final String KOBITON_SERVER_URL = "";	
-		
-	//BitBar details
-	public static final String TESTDROID_API_KEY = "";		
-	public static final String BITBAR_URL = "http://appium.bitbar.com/wd/hub";
-				
-	//SeeTest
-	public static final String SEETEST_ACCESS_KEY = "";
-	public static final String SEETEST_URL = "https://cloud.seetest.io/wd/hub";		
-					
-	//HPE Mobile Center
-	public static final String HPE_MC_URL = "";	
-	public static final String HPE_MC_USERNAME = "";
-	public static final String HPE_MC_PASSWORD = "";
-	
-	//Applitools API key
-	public static final String APPLITOOLS_API_KEY = "";
-		
-	//Voice automation
-	public static final String VOICE_RSS_API_KEY = "";
-	public static final String VOICERSS_BASEURL = "https://api.voicerss.org/?";
-	
 	//Allure Screenshot capture
 	public static final String SCREENSHOT_CAPTURE = "EveryStep"; //EveryStep or LastStep
 	
@@ -79,13 +31,4 @@ public class Config {
 	public static final String IOS_REAL_DEVICE_APP_PATH = System.getProperty("user.dir")+"\\src\\test\\resources\\apps\\";
 	public static final String IOS_SIMULATOR_APP_PATH = System.getProperty("user.dir")+"\\src\\test\\resources\\apps\\";
 	
-	//Web App
-	public static final String APP_URL = "https://opensource-demo.orangehrmlive.com/";
-	
-	//DB Config	
-	public static final String DB_HOST = "";
-	public static final String DB_PORT = "";
-	public static final String DB_SID = "";
-	public static final String DB_USER_ID = "";
-	public static final String DB_PASSWORD = "";
 }

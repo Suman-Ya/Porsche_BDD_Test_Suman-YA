@@ -151,71 +151,7 @@ public class DriverManagerUtil {
 					   url = Config.GRID_URL;
 				   				 
 				   break;
-		   }
-		   
-		   case "BROWSERSTACK" :
-		   {
-				url = Config.BROWSER_STACK_URL;
-				break;
-		   }
-			
-		   case "SAUCELABS" :
-		   {
-			   if (TestRun.isMobile())	
-				   url = Config.SAUCELABS_APPIUM_URL;
-		
-			   else if (TestRun.isDesktop())			
-				   url = Config.SAUCELABS_SELENIUM_URL;
-			   
-				break;
-		   }
-		   
-		   case "TESTOBJECT" :
-		   {
-				url = Config.TEST_OBJECT_URL;
-				break;
-		   }
-		   
-		   case "PERFECTO" :
-		   {
-			   if (TestRun.isMobile())	
-				   url = Config.PERFECTO_URL;
-		
-			   else if (TestRun.isDesktop())			
-				   url = Config.PERFECTO_URL + "/fast";
-
-			   break;
-		   }
-		   		
-		   case "PCLOUDY" :
-		   {
-				url = Config.PCLOUDY_URL;
-				break;
-		   }
-		   
-		   case "KOBITON" :
-		   {
-				url = Config.KOBITON_SERVER_URL;
-				break;
-		   }
-			
-		   case "BITBAR" :
-		   {
-				url = Config.BITBAR_URL;		
-				break;
-		   }
-		   
-		   case "SEETEST" :
-		   {
-				url = Config.SEETEST_URL;
-				break;
-		   }		   
-		   
-		   case "HPEMC" :
-		   {
-				url = Config.HPE_MC_URL;
-				break;
-		   }
+		   }   
 		}
 		
 		//Initiate the driver

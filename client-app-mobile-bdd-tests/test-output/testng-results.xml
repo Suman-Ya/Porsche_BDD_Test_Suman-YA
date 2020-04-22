@@ -5,56 +5,80 @@
       <![CDATA[HOMEPAGE is displayed.]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\syadav26\Desktop\Appium\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_20_04_2020_11_55_54.png'> <img src='C:\Users\syadav26\Desktop\Appium\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_20_04_2020_11_55_54.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_42.png'> <img src='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_42.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
       <![CDATA[Clicked on HOMEPAGE on Home screen.]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\syadav26\Desktop\Appium\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_20_04_2020_11_55_56.png'> <img src='C:\Users\syadav26\Desktop\Appium\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_20_04_2020_11_55_56.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_43.png'> <img src='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_43.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
       <![CDATA[DETAILSPAGE is displayed.]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\syadav26\Desktop\Appium\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_20_04_2020_11_55_57.png'> <img src='C:\Users\syadav26\Desktop\Appium\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_20_04_2020_11_55_57.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_45.png'> <img src='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_45.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on BACKBTN on Home screen.]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_46.png'> <img src='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_46.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[FAV is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_47.png'> <img src='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_47.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on FAVORITES on Home screen.]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_49.png'> <img src='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_49.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[FAVMOVIETAB is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_50.png'> <img src='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_50.png' height='100' width='100'/> </a>]]>
     </line>
   </reporter-output>
-  <suite name="Mobile Test Suite" duration-ms="189635" started-at="2020-04-20T18:25:31Z" finished-at="2020-04-20T18:28:41Z">
+  <suite name="Mobile Test Suite" duration-ms="346925" started-at="2020-04-22T12:53:20Z" finished-at="2020-04-22T12:59:07Z">
     <groups>
       <group name="cucumber">
-        <method signature="RunCucumberFeatures_2.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.client.app.testrunner.RunCucumberFeatures_2@5dafbe45]" name="feature" class="com.client.app.testrunner.RunCucumberFeatures_2"/>
+        <method signature="RunCucumberFeatures_2.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.client.app.testrunner.RunCucumberFeatures_2@6cd24612]" name="feature" class="com.client.app.testrunner.RunCucumberFeatures_2"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Mobile Catalogue Test" duration-ms="189635" started-at="2020-04-20T18:25:31Z" finished-at="2020-04-20T18:28:41Z">
+    <test name="Mobile Catalogue Test" duration-ms="346925" started-at="2020-04-22T12:53:20Z" finished-at="2020-04-22T12:59:07Z">
       <class name="com.client.app.testrunner.RunCucumberFeatures_2">
-        <test-method status="PASS" signature="suiteSetup(org.testng.ITestContext)[pri:0, instance:com.client.app.testrunner.RunCucumberFeatures_2@5dafbe45]" name="suiteSetup" is-config="true" duration-ms="73" started-at="2020-04-20T18:25:31Z" finished-at="2020-04-20T18:25:31Z">
+        <test-method status="PASS" signature="suiteSetup(org.testng.ITestContext)[pri:0, instance:com.client.app.testrunner.RunCucumberFeatures_2@6cd24612]" name="suiteSetup" is-config="true" duration-ms="92" started-at="2020-04-22T12:53:20Z" finished-at="2020-04-22T12:53:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@fa11fda]]>
+                <![CDATA[org.testng.TestRunner@448892f1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteSetup -->
-        <test-method status="PASS" signature="testSetUp(org.testng.ITestContext)[pri:0, instance:com.client.app.testrunner.RunCucumberFeatures_2@5dafbe45]" name="testSetUp" is-config="true" duration-ms="7511" started-at="2020-04-20T18:25:31Z" finished-at="2020-04-20T18:25:38Z">
+        <test-method status="PASS" signature="testSetUp(org.testng.ITestContext)[pri:0, instance:com.client.app.testrunner.RunCucumberFeatures_2@6cd24612]" name="testSetUp" is-config="true" duration-ms="6941" started-at="2020-04-22T12:53:20Z" finished-at="2020-04-22T12:53:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@fa11fda]]>
+                <![CDATA[org.testng.TestRunner@448892f1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetUp -->
-        <test-method status="PASS" signature="classSetUp()[pri:0, instance:com.client.app.testrunner.RunCucumberFeatures_2@5dafbe45]" name="classSetUp" is-config="true" duration-ms="493" started-at="2020-04-20T18:25:38Z" finished-at="2020-04-20T18:25:39Z">
+        <test-method status="PASS" signature="classSetUp()[pri:0, instance:com.client.app.testrunner.RunCucumberFeatures_2@6cd24612]" name="classSetUp" is-config="true" duration-ms="503" started-at="2020-04-22T12:53:27Z" finished-at="2020-04-22T12:53:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classSetUp -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.client.app.testrunner.RunCucumberFeatures_2@5dafbe45]" name="feature" duration-ms="19024" started-at="2020-04-20T18:25:39Z" description="Run Feature" data-provider="features" finished-at="2020-04-20T18:25:58Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.client.app.testrunner.RunCucumberFeatures_2@6cd24612]" name="feature" duration-ms="22874" started-at="2020-04-22T12:53:27Z" description="Run Feature" data-provider="features" finished-at="2020-04-22T12:53:50Z">
           <params>
             <param index="0">
               <value>
@@ -67,31 +91,55 @@
               <![CDATA[HOMEPAGE is displayed.]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\syadav26\Desktop\Appium\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_20_04_2020_11_55_54.png'> <img src='C:\Users\syadav26\Desktop\Appium\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_20_04_2020_11_55_54.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_42.png'> <img src='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_42.png' height='100' width='100'/> </a>]]>
             </line>
             <line>
               <![CDATA[Clicked on HOMEPAGE on Home screen.]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\syadav26\Desktop\Appium\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_20_04_2020_11_55_56.png'> <img src='C:\Users\syadav26\Desktop\Appium\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_20_04_2020_11_55_56.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_43.png'> <img src='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_43.png' height='100' width='100'/> </a>]]>
             </line>
             <line>
               <![CDATA[DETAILSPAGE is displayed.]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\syadav26\Desktop\Appium\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_20_04_2020_11_55_57.png'> <img src='C:\Users\syadav26\Desktop\Appium\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_20_04_2020_11_55_57.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_45.png'> <img src='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_45.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on BACKBTN on Home screen.]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_46.png'> <img src='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_46.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[FAV is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_47.png'> <img src='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_47.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on FAVORITES on Home screen.]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_49.png'> <img src='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_49.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[FAVMOVIETAB is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_50.png'> <img src='C:\Users\syadav26\Desktop\Appium\new\Porsche_BDD_Test_Suman-YA\client-app-mobile-bdd-tests\target\surefire-reports\screenshots\_22_04_2020_06_23_50.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="scenarioTearDown()[pri:0, instance:com.client.app.testrunner.RunCucumberFeatures_2@5dafbe45]" name="scenarioTearDown" is-config="true" duration-ms="162423" started-at="2020-04-20T18:25:58Z" finished-at="2020-04-20T18:28:41Z">
+        <test-method status="PASS" signature="scenarioTearDown()[pri:0, instance:com.client.app.testrunner.RunCucumberFeatures_2@6cd24612]" name="scenarioTearDown" is-config="true" duration-ms="316419" started-at="2020-04-22T12:53:50Z" finished-at="2020-04-22T12:59:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scenarioTearDown -->
-        <test-method status="PASS" signature="classTearDown()[pri:0, instance:com.client.app.testrunner.RunCucumberFeatures_2@5dafbe45]" name="classTearDown" is-config="true" duration-ms="6" started-at="2020-04-20T18:28:41Z" finished-at="2020-04-20T18:28:41Z">
+        <test-method status="PASS" signature="classTearDown()[pri:0, instance:com.client.app.testrunner.RunCucumberFeatures_2@6cd24612]" name="classTearDown" is-config="true" duration-ms="7" started-at="2020-04-22T12:59:07Z" finished-at="2020-04-22T12:59:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classTearDown -->
-        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:com.client.app.testrunner.RunCucumberFeatures_2@5dafbe45]" name="suiteTearDown" is-config="true" duration-ms="71" started-at="2020-04-20T18:28:41Z" finished-at="2020-04-20T18:28:41Z">
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:com.client.app.testrunner.RunCucumberFeatures_2@6cd24612]" name="suiteTearDown" is-config="true" duration-ms="68" started-at="2020-04-22T12:59:07Z" finished-at="2020-04-22T12:59:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteTearDown -->

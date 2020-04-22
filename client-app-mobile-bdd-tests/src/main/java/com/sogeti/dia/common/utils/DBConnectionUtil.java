@@ -13,45 +13,6 @@ import com.sogeti.dia.common.config.Config;
 public class DBConnectionUtil{	
 	private static Connection con;
 	private static int index=1;
-	
-	/**********************************************************************************************
-	 * Oracle DB connection
-	 * @version 1.0 May 21, 2018
-	 ***********************************************************************************************/
-	public static void oracleDBConnector() {				
-		String dbUrl = "jdbc:oracle:thin:@//" + Config.DB_HOST + ":" + Config.DB_PORT +  "/" + Config.DB_SID;        
-		//Database Username		
-		String username = Config.DB_USER_ID;	        
-		//Database Password		
-		String password = Config.DB_PASSWORD;	
-
-		try {
-				//Load mysql jdbc driver	
-				Class.forName("oracle.jdbc.driver.OracleDriver");  	
-				//Create Connection to DB		
-		    	con = DriverManager.getConnection(dbUrl, username, password);	  
-		  		
-		} catch (Exception e) {
-			 LoggerUtil.logErrorMessage("Unable to conenct to Oracle DB: " + e);
-		}	
-		
-		LoggerUtil.logErrorMessage("Conenction to Oracle DB open.");
-	}
-	
-	/**********************************************************************************************
-	 * Close Oracle DB connection
-	 * @version 1.0 May 21, 2018
-	 ***********************************************************************************************/
-	public static void closeDB() {
-		//closing DB Connection		
-		try {
-				con.close();
-				LoggerUtil.logErrorMessage("Conenction to Oracle DB closed.");
-		} catch (Exception e) {
-			LoggerUtil.logErrorMessage("Unable to close conenction for Oracle DB: " + e);		
-		}	
-	}
-	
 
 	/**********************************************************************************************
 	 * Sample method to get Id from DB, create methods as per the requirement

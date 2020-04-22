@@ -25,6 +25,14 @@ public class MovieCatalogueUtil {
 				status = MobileInteractUtil.isPresent(movieCataloguePage.Detailspage, Config.MEDIUM_PAUSE);						
 				break;
 			}
+			case "FAVMOVIETAB": {
+				status = MobileInteractUtil.isPresent(movieCataloguePage.FavMovieTab, Config.MEDIUM_PAUSE);						
+				break;
+			}
+			case "FAV": {
+				status = MobileInteractUtil.isPresent(movieCataloguePage.FavMovieTab, Config.MEDIUM_PAUSE);						
+				break;
+			}
 }
 		if (status)
 			LoggerUtil.logMessage(mobileElementTitle + " is displayed.");			
@@ -41,6 +49,15 @@ public class MovieCatalogueUtil {
 					status = MobileInteractUtil.click(movieCataloguePage.Homepage);						
 					break;
 				}
+			case "FAVORITES": {
+				status = MobileInteractUtil.click(movieCataloguePage.Favoritesbtn);						
+				break;
+			}
+			case "BACKBTN": {
+				status = MobileInteractUtil.click(movieCataloguePage.Backbtn);						
+				break;
+			}
+			
 		}
 			if(status) {
 				LoggerUtil.logMessage("Clicked on " + mobileElement + " on Home screen.");			

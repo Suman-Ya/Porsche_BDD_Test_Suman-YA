@@ -20,17 +20,18 @@ public class TextToSpeechUtil {
 	 * @param url {@link String} - url
 	 * @version 1.0 Mar 2, 2019
 	 ***********************************************************************************************/
-    public static void playInternetVoiceFile(String url){
-        try {
-	            URL voiceUrl = new URL(url);
-	            Voice voice = new Voice(voiceUrl);
-	            VoiceAutomationClient voiceAutomationClient = new VoiceAutomationClient();
-	            voiceAutomationClient.load(voice);
-	            voiceAutomationClient.play(voice);
-        }catch (Exception e){
-            LoggerUtil.logErrorMessage("Text to Speech coversion exception: " + e);
-        }
+	 public static void playInternetVoiceFile(String url){
+    try {
+            URL voiceUrl = new URL(url);
+            Voice voice = new Voice(voiceUrl);
+            VoiceAutomationClient voiceAutomationClient = new VoiceAutomationClient();
+            voiceAutomationClient.load(voice);
+            voiceAutomationClient.play(voice);
+    }catch (Exception e){
+        LoggerUtil.logErrorMessage("Text to Speech coversion exception: " + e);
     }
+}
+}
     
     /**********************************************************************************************
      * Get Voice Url
@@ -41,22 +42,6 @@ public class TextToSpeechUtil {
 	 * @return voiceUrl {@link String} - URL of audio file
 	 * @version 1.0 Mar 2, 2019
 	 ***********************************************************************************************/
-	public static String getVoiceUrl(String text, String audioFormat, String language) {
-        String voiceUrl = null;
-        try {
-	            URIBuilder uriBuilder = new URIBuilder(Config.VOICERSS_BASEURL);
-	            uriBuilder.addParameter("key", Config.VOICE_RSS_API_KEY);
-	            uriBuilder.addParameter("src", text);
-	            uriBuilder.addParameter("c", audioFormat);
-	            uriBuilder.addParameter("hl", language);
-	            
-	            voiceUrl = uriBuilder.toString();
-        } catch (Exception e) {
-        	LoggerUtil.logErrorMessage("Text to Speech get URL exception: " + e);
-        }
-        return voiceUrl;
-    }
-}
 
 
 /*Language code	Language name
